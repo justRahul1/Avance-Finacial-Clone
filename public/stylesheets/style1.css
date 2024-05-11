@@ -1,0 +1,737 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+a:link {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+a:active {
+  color: white;
+}
+
+.navigation {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 3px solid #8085862f;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 100;
+}
+
+.logo {
+  /* background-color: rgb(255, 0, 0); */
+  padding-left: 50px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 55%;
+  height: 100%;
+  padding-right: 30px;
+}
+.links ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  /* background-color: green; */
+}
+
+.links ul li {
+  list-style: none;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.links ul li a {
+  color: black;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+}
+
+.links ul li a:hover {
+  color: #17b2b0;
+  transition: 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+.links ul li a:active {
+  color: #17b2b0;
+}
+
+.links ul i {
+  color: #1b8593;
+}
+
+.links ul li:hover {
+  color: #17b2b0;
+  transition: 0.2s ease-in-out;
+}
+
+.mainApplybtn1 {
+  background-color: rgb(255, 206, 46);
+  border-style: none;
+  padding: 13px 40px;
+  border-radius: 36px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.mainApplybtn1:hover {
+  color: white;
+  transform: translateY(-6px);
+  transition: 0.3s ease-in-out;
+  box-shadow: 3px 12px 16px rgba(174, 161, 161, 0.263);
+}
+
+.section1 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  margin-top: 100px;
+  padding-left: 50px;
+  background-image: url(https://www.avanse.com/viewPagesAssets/img/home-banner-bg-new.webp);
+  background-repeat: no-repeat;
+}
+
+.left1 {
+  width: 50%;
+  height: 100vh;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-evenly;
+}
+
+.left1 p {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-top: 5%;
+}
+
+.left1 p span {
+  color: #1cb1b1;
+}
+
+.left1 select {
+  outline-style: none;
+  border-style: none;
+  border-bottom: 1px solid rgb(0, 255, 72);
+  width: 400px;
+  height: 40px;
+  background-color: #ffffff00;
+}
+
+.left1 button {
+  width: 160px;
+  padding: 14px 22px;
+  border-radius: 30px;
+  background-color: #17c7bd;
+  border: 1px solid #17c7bd;
+  transition: 0.3s ease-in-out;
+}
+
+.left1 button:hover {
+  background-color: #fff;
+  color: #17c7bd;
+  transition: 0.3s ease-in-out;
+}
+
+.left1 img {
+  width: 100px;
+}
+
+.right1 {
+  width: 50%;
+  height: 100vh;
+  /* background-color: green; */
+  display: flex;
+  position: relative;
+}
+
+.right1Img1 {
+  height: 32rem;
+  position: absolute;
+  bottom: 0px;
+  left: 30px;
+}
+
+.right1Img2 {
+  height: 12rem;
+  position: absolute;
+  right: 15%;
+  top: 0px;
+}
+
+.section2 {
+  text-align: center;
+  height: 130vh;
+  /* background-color: greenyellow; */
+  background-image: url(https://www.avanse.com/viewPagesAssets/img/gray-light-bg.webp);
+  background-repeat: no-repeat;
+}
+
+.section2 p span {
+  color: #17b2b0;
+}
+
+.sec2Para1 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  padding-top: 6%;
+}
+
+.section2Main {
+  height: 80%;
+  /* background-color: #ffffff37; */
+  display: flex;
+}
+
+.section2Left {
+  width: 50%;
+  height: 100%;
+}
+
+.section2Left img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.section2Right {
+  width: 50%;
+  /* background-color: #0000001e; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+}
+
+.sec2RgtOpt {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 70%;
+  font-size: 1.3rem;
+}
+
+.section2Right p {
+  width: 80%;
+  text-align: start;
+}
+
+.sec2Img {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.sec2Img img {
+  height: 4.5rem;
+}
+
+.section2Right button {
+  position: absolute;
+  left: 10%;
+  bottom: 0px;
+}
+
+.section3 {
+  width: 100%;
+  height: 900px;
+  /* background-color: cyan; */
+}
+
+.section3 > p {
+  text-align: center;
+  margin: 5px 10px 0px 10px;
+}
+
+.section3 > p span {
+  color: #17b2b0;
+}
+
+.sec3LoanBox {
+  margin-top: 60px;
+  font-size: 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.sec3LoanDetail {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 60%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.loanDetailBox {
+  width: 28vw;
+  height: 33vh;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 18px 8px rgba(128, 128, 128, 0.256);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.loanDetailBox > i {
+  font-size: 3rem;
+  color: #198694;
+}
+
+.loanDetailBox p {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.section4 {
+  width: 100%;
+  height: 800px;
+  background-image: url(https://www.avanse.com/viewPagesAssets/img/gray-light-bg.webp);
+  background-repeat: no-repeat;
+}
+
+.section4 > p {
+  font-size: 2.3rem;
+  text-align: center;
+  font-weight: 500;
+  padding-top: 100px;
+}
+
+.sec4Main {
+  display: flex;
+  margin-top: 50px;
+}
+
+.sec4Left {
+  font-weight: 400;
+  margin-left: 50px;
+  width: 50%;
+  height: 595px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.bluePara {
+  color: #17b2b0;
+  margin-bottom: 10px;
+}
+
+.line {
+  width: 100%;
+  height: 0.5px;
+  background-color: rgba(128, 128, 128, 0.313);
+  margin: 15px 0px;
+}
+
+.sec4Right {
+  width: 50%;
+  height: 595px;
+}
+
+.sec4Right > img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.adImg {
+  width: 100%;
+  height: 270px;
+  background-color: #f9bd1d;
+  margin: 150px 0px;
+  background-image: url("https://www.avanse.com/viewPagesAssets/img/home-cta/right.svg");
+  background-repeat: no-repeat;
+  background-size: 10%;
+  background-position: left bottom;
+  position: relative;
+}
+
+.adImg img {
+  height: 360px;
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+}
+
+.adImgText {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 40%;
+  position: relative;
+}
+
+.adImgText p:nth-child(1) {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.adImgText p:nth-child(2) {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #0e5353;
+}
+
+.started {
+  background-color: #0e5353;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border-style: none;
+  padding: 12px 30px;
+  border-radius: 30px;
+  margin-top: 20px;
+  border: 2px solid #0e5353;
+  transition: 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+.started:hover {
+  background-color: #ffffff00;
+  transition: 0.2s ease-in-out;
+  color: #198694;
+  cursor: pointer;
+}
+
+.adImg img:nth-child(2) {
+  height: 130px;
+  position: absolute;
+  z-index: -1;
+  transform: rotate(90deg);
+  bottom: 3%;
+  left: -1%;
+}
+
+.section5 {
+  width: 100%;
+  height: 750px;
+  /* background-color: rgba(255, 0, 0, 0.16); */
+}
+
+.section5 p:nth-child(1) {
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: 500;
+}
+
+.section5 p:nth-child(1) span {
+  color: #17b2b0;
+}
+
+.section5 p:nth-child(2) {
+  line-height: 30px;
+  margin-top: 10px;
+  width: 70%;
+  text-align: center;
+  margin: auto;
+}
+
+.section5 img {
+  width: 100%;
+  height: 600px;
+  object-fit: contain;
+}
+
+.section6 {
+  width: 100%;
+  height: 700px;
+  background-color: #f5f5f7;
+  display: flex;
+}
+
+.avanceTransformLeft {
+  height: 100%;
+  width: 46%;
+  /* background-color: rgba(255, 0, 0, 0.1); */
+  margin-left: 40px;
+}
+
+.avanceTransformLeft p:nth-child(1) {
+  text-align: start;
+  font-size: 2.6rem;
+  font-weight: 500;
+  margin-top: 40%;
+}
+
+.avanceTransformLeft p:nth-child(1) span {
+  color: #17b2b0;
+}
+
+.avanceTransformLeft p:nth-child(2) {
+  text-align: start;
+  line-height: 30px;
+}
+
+.avanceTransformLeft button {
+  margin-top: 15%;
+}
+
+.avanceTransformRight {
+  height: 100%;
+  width: 54%;
+  margin-right: 50px;
+  /* background-color: rgba(144, 238, 144, 0.11); */
+}
+
+.avanceTransformRight img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.section7 {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section7 > h1 {
+  text-align: center;
+  padding-top: 80px;
+  font-size: 2.5rem;
+}
+
+.section7 > p {
+  text-align: center;
+}
+
+.reviewBoxMain {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+
+.reviewBox {
+  width: 330px;
+  height: 400px;
+  background-color: #17b2b0;
+  border-radius: 4px;
+}
+
+.profile {
+  width: 100%;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.profileImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.profileImg > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center center;
+  border-radius: 50%;
+}
+
+.profileInfo {
+  width: 200px;
+  height: 100%;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow: hidden;
+}
+
+.profileInfo > h5 {
+  font-size: 1.3rem;
+}
+
+.reviewBox > p {
+  text-align: start;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.section7 > button {
+  align-self: center;
+  padding: 15px 35px;
+  background-color: #f9bd1d;
+  font-weight: 600;
+  font-size: 0.9rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  border-style: none;
+}
+
+.section7 > button:hover {
+  color: white;
+  transform: translateY(-6px);
+  transition: 0.3s ease-in-out;
+  box-shadow: 3px 12px 16px rgba(174, 161, 161, 0.263);
+}
+
+.section8 {
+  width: 100%;
+  height: 750px;
+}
+
+.section8 > h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-top: 150px;
+}
+
+.section8 > p {
+  text-align: center;
+  width: 55%;
+  margin: auto;
+}
+
+.awardBoxMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 600px;
+  /* background-color: rgb(172, 255, 47); */
+}
+
+.awardBox {
+  /* background-color: rgba(255, 166, 0, 0.297); */
+  width: 300px;
+  height: 300px;
+  background-image: url(https://www.avanse.com/viewPagesAssets/img/award-bg.webp);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.awardBox > p {
+  padding-left: 30px;
+  padding-bottom: 20px;
+  width: 70%;
+  font-size: 0.9rem;
+}
+
+.section9 {
+  width: 100%;
+  height: 160px;
+  background-color: #c1e4e4;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.queote {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: red; */
+}
+
+.queote > p:nth-child(1) {
+  font-size: 2rem;
+}
+.queote > p:nth-child(2) {
+  font-size: 1.3rem;
+}
+
+.applyNowLst {
+  background-color: #e4a817;
+  border: 2px solid #e4a817;
+  padding: 19px 60px;
+  border-radius: 36px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.applyNowLst:hover {
+  color: white;
+  transform: translateY(-6px);
+  transition: 0.3s ease-in-out;
+  box-shadow: 3px 12px 16px rgba(174, 161, 161, 0.263);
+}
+
+.footer {
+  height: 600px;
+  width: 100%;
+  background-color: #1b8593;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerBox {
+  width: 25%;
+  height: 80%;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 30px;
+  color: white;
+  gap: 30px;
+  font-size: 0.9rem;
+  transition: 0.2s ease-in-out;
+}
+
+.footerBox > h3 {
+  margin-bottom: 40px;
+}
+
+.footerBox > a {
+  text-decoration: none;
+}
+
+.footerBox > a:hover {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: #17b2b0;
+  transition: 0.3s ease-in-out;
+}
